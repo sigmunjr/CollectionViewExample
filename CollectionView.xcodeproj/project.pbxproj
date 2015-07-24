@@ -13,6 +13,8 @@
 		756025BE1B601A73000D2C0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756025BD1B601A73000D2C0E /* Images.xcassets */; };
 		756025C11B601A73000D2C0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 756025BF1B601A73000D2C0E /* LaunchScreen.xib */; };
 		756025CD1B601A73000D2C0E /* CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756025CC1B601A73000D2C0E /* CollectionViewTests.swift */; };
+		756025D91B60C6EE000D2C0E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756025D81B60C6EE000D2C0E /* CollectionViewCell.swift */; };
+		756025DD1B60CF2B000D2C0E /* ExtendedInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756025DC1B60CF2B000D2C0E /* ExtendedInfoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		756025C61B601A73000D2C0E /* CollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		756025CB1B601A73000D2C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		756025CC1B601A73000D2C0E /* CollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTests.swift; sourceTree = "<group>"; };
+		756025D81B60C6EE000D2C0E /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		756025DC1B60CF2B000D2C0E /* ExtendedInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendedInfoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,12 @@
 			children = (
 				756025B61B601A73000D2C0E /* AppDelegate.swift */,
 				756025B81B601A73000D2C0E /* ViewController.swift */,
+				756025D81B60C6EE000D2C0E /* CollectionViewCell.swift */,
 				756025BA1B601A73000D2C0E /* Main.storyboard */,
 				756025BD1B601A73000D2C0E /* Images.xcassets */,
 				756025BF1B601A73000D2C0E /* LaunchScreen.xib */,
 				756025B41B601A73000D2C0E /* Supporting Files */,
+				756025DC1B60CF2B000D2C0E /* ExtendedInfoCell.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -214,6 +220,8 @@
 			files = (
 				756025B91B601A73000D2C0E /* ViewController.swift in Sources */,
 				756025B71B601A73000D2C0E /* AppDelegate.swift in Sources */,
+				756025DD1B60CF2B000D2C0E /* ExtendedInfoCell.swift in Sources */,
+				756025D91B60C6EE000D2C0E /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
